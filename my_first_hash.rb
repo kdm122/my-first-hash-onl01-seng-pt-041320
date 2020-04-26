@@ -14,7 +14,8 @@ def shipping_manifest
                   "porcelain vases" => 2, 
                   "oil paintings" => 3
                  }
-  shipping_manifest["oil paintings"]
+
+  
 end
 
 def retrieval
@@ -25,6 +26,8 @@ def retrieval
                  }
 
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
+                   
+  shipping_manifest["oil paintings"]
 
 end
 
